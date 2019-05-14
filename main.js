@@ -1,9 +1,12 @@
 var canvas = document.getElementById('viewport');
 context = canvas.getContext('2d');
+base_image = new Image();
+  base_image.src = 'base.jpg';
 
 function make_base(){
-  base_image = new Image();
-  base_image.src = 'base.jpg';
+
+    document.getElementById('eid-Saeed').style.display = 'block';;
+  
 //   base_image.width= "100%";
 console.log(textInput)
 var textInput = document.getElementById('tt').value;
@@ -37,7 +40,7 @@ function calculateAspectRatioFit(srcWidth, srcHeight, maxWidth, maxHeight) {
     context.fillStyle = "#dc3545"; 
     context.fillText(textInput, 40, 348);
 }
-make_base();
+// make_base();
 
 
 // File

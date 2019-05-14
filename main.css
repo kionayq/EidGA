@@ -33,7 +33,10 @@ header {
     min-height: 100px;
 
 }
-
+.eid-Saeed{
+    color: #dc3545;
+    display: none;
+}
 footer {
  
     width: 100%;
