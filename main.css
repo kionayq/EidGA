@@ -37,6 +37,10 @@ header {
     color: #dc3545;
     display: none;
 }
+
+.downloadbtn{
+    display: none;
+}
 footer {
  
     width: 100%;
@@ -55,6 +59,7 @@ footer {
 
 
 canvas#viewport { border: 1px solid gray;
+    display: none;
 /* 
 width: 643px;
 height: 194px; */
