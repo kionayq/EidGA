@@ -34,7 +34,7 @@ header {
 
 }
 .eid-Saeed{
-    color: #dc3545;
+    color: #31378d;
     display: none;
 }
 
@@ -42,7 +42,8 @@ header {
     display: none;
 }
 footer {
- 
+    position: fixed;
+    bottom: 0; 
     width: 100%;
     /* background-color: #52baa7; */
     color: gray;
@@ -55,7 +56,9 @@ footer {
 
 /* ؤشىرشس */
 
-
+.btn-primary{
+    background-color: #C2185B;
+}
 
 
 canvas#viewport { border: 1px solid gray;
