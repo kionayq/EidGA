@@ -2,7 +2,6 @@ var canvas = document.getElementById('viewport');
 context = canvas.getContext('2d');
 base_image = new Image();
 base_image.src = 'base.jpg';
-let db = firebase.firestore().collection('Eid');
 function make_base() {
 
     let nameI = document.getElementById('tt').value
@@ -10,11 +9,7 @@ function make_base() {
 
         alert('أدخل اسمك رجاء : ) ');
 
-    } else {
-
-
-        db.add({
-            name: nameI});
+    } else {  
 
         document.getElementById('eid-Saeed').style.display = 'block';;
         document.getElementById('aa').style.display = 'block';
